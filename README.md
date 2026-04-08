@@ -100,7 +100,7 @@ Raw data: German day-ahead electricity prices from [SMARD.de](https://www.smard.
 **Step 5 — Transition matrix estimation:** Count observed hourly state transitions, normalise rows to sum to 1.
 
 ### Data Source
-Real German day-ahead electricity prices from [SMARD.de](https://www.smard.de) (Bundesnetzagentur), 2020–2024, hourly resolution. Full processing pipeline in `EPEX_data_processing.ipynb`.
+Real German day-ahead electricity prices from [SMARD.de](https://www.smard.de) (Bundesnetzagentur), 2020–2024, hourly resolution. Full processing pipeline in `epex_data_processing.ipynb`.
 
 ### Empirically Estimated Parameters
 
