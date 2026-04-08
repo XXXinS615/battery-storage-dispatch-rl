@@ -133,7 +133,7 @@ where n(s,a) is the visit count for each state-action pair. Satisfies Q-Learning
 | Method | Avg Reward/Step | vs. Optimum |
 |--------|----------------|-------------|
 | Value Iteration | 10.1589 €/MWh | 100% (benchmark) |
-| Q-Learning | 10.1589 €/MWh | **0.0%** |
+| Q-Learning | 10.1589 €/MWh | **100%** |
 
 **Optimal Dispatch Policy: Q-Learning vs Value Iteration**
 Both policies are structurally identical — charge at Low prices, discharge at Mid/High prices, idle only at capacity constraints. The per-state adaptive learning rate ensures even rare state-action combinations are learned correctly.
